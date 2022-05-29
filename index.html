@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Document</title>
+
+
+</head>
+<body>
+    
+
+
+    <div class="container" onmouseover="mouseEmCima()" onmouseleave="mouseFora()">
+
+        <video id="video1" class="video" src="./assets/video/The Witcher 3- A night to remember.mp4" poster="./assets/images/witcher-poster.jpg">
+        
+        </video>
+        
+
+        <div class="controle">
+
+            <img class="btn" onclick="retroceder()" src="./assets/images/back.svg">
+            <img id="playPause" status="true" class="btn" onclick="playP()" src="./assets/images/play.svg" alt="">
+            <img class="btn" onclick="stop()" src="./assets/images/stop.svg">
+            <img class="btn" onclick="avancar()" src="./assets/images/skip.svg">
+
+        </div>
+
+    </div>
+
+<br>
+
+    <div class="playlist">
+        <div id="listavideo1" class="videolista">
+            <img class="imagemlista" src="./assets/images/witcher-poster.jpg" alt="">
+            <h3> The Witcher 3 - A night to remember </h3>
+        </div>
+
+        <div id="listavideo2" class="videolista">
+            <img class="imagemlista" src="./assets/images/the witcher 3 - killing monsters.jpg" alt="">
+            <h3> The Witcher 3 - Killing monsters </h3>
+        </div>
+
+        <div id="listavideo3" class="videolista">
+            <img class="imagemlista" src="./assets/images/cyberpunk2077.jpg" alt="">
+            <h3> Cyberpunk2077 - Teaser </h3>
+        </div>
+
+        <div id="listavideo4" class="videolista">
+            <img class="imagemlista" src="./assets/images/assassins creed 3.jpg" alt="">
+            <h3> Assassin's Creed 3 - E3 Official Trailer </h3>
+        </div>
+
+        <div id="listavideo5" class="videolista">
+            <img class="imagemlista" src="./assets/images/assassins creed 2.jpg" alt="">
+            <h3> Assassin's Creed 2 - E3 Trailer </h3>
+        </div>
+        
+    </div>
+
+
+
+
+
+
+<script src="./script.js"></script>
+
+</body>
+</html>
