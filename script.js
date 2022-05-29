@@ -48,6 +48,17 @@ function avancar() {
         video.currentTime += 15;
 }
 
+function vol_up() {
+        video.volume += 0.2;
+}
+
+function vol_down() {
+        video.volume -= 0.2;
+}
+
+function fullscreen() {
+        video.requestFullscreen();
+}
 
 function mouseEmCima() {
         document.getElementsByClassName("controle")[0].style.display = "block";
